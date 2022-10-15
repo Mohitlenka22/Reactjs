@@ -1,0 +1,37 @@
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 4em;
+}
+.count_display{
+  box-shadow: 0 0 10px gray;
+  border-radius: 4px;
+  padding: 5px 30px;
+  color: red;
+  
+}
+.btn{
+     display: flex;
+     justify-content: center;
+     align-items: stretch;
+     position: relative;
+     top: 6em;
+     right: 0 em;
+}
+.btnin{
+  color: black;
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(45, 173, 45);
+  border:1px solid rgb(82, 84, 82);
+  opacity: 0.9;
+  box-shadow: 0 0 4px gray;
+  transition: 0.4s;
+}
+.btnin:hover{
+  opacity: 0.8;
+
+}
